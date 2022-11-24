@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    color: rgb(175, 139, 175);
+    width: 100%;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 25px;
+}
+
+form >  input {
+    margin: 15px 0px;
+    height: 35px;
+    width: 258px;
+}
+
+.message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(236, 99, 202);
+    width: 255px;
+    height: 45px;
+    color: rgb(203, 170, 233);
+    border: 3px solid  rgb(177, 105, 236);
+}
+
+.off{
+    display: none;
+}
